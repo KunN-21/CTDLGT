@@ -36,4 +36,6 @@ AVLNode *FindAVLNode(AVLNode *root, ItemType x);
 int DeleteAVLTree(AVLNode *&root);
 void ShowAVLTree(AVLNode *&T, int count, int &Flag);
 void WriteAVLTree(FILE *filename, AVLNode *T);
+void LNR(AVLNode* root);
+void CreateAVLTreeFromArray(AVLTree &avl, ItemType a[], int n);
 #endif
